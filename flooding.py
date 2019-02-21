@@ -9,14 +9,14 @@ def flooding():
       senha        = '123fload.'
       
       # Informações da mensagem
-      destinatario = 'ojulia396@gmail.com'
-      assunto      = 'Minha nega, fedida, encardida, cheia de ferida'
+      destinatario = ''
+      assunto      = ''
       texto        = 'Esse email foi enviado usando python! :)'
       
       # Preparando a mensagem
       msg = '\r\n'.join([
         'From: blafloading@gmail.com %s' % remetente,
-        'To: ojulia396@gmail.com %s' % destinatario,
+        'To:  %s' % destinatario,
         'Subject:Python %s' % assunto,
         '',
         '%s' % texto
